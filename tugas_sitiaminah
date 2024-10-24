@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Identitas Diri</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header, footer {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .box {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            border-radius: 50%;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        button {
+            background-color: #4CAF50; /* Green */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 15px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>IDENTITAS DIRI</h1>
+        <img src="foto.jpg" width="85" height="100" alt="Foto Siti Aminah">
+        <p>TUGAS CSS</p>
+    </header>
+
+    <div class="box">
+        <div class="block">D4 KOMPUTERISASI AKUNTANSI</div>
+
+        <table>
+            <tr>
+                <th>NAMA</th>
+                <th>:</th>
+                <td>SITI AMINAH</td>
+            </tr>
+            <tr>
+                <td>NIM</td>
+                <th>:</th>
+                <td>D212111018</td>
+            </tr>
+            <tr>
+                <td>ALAMAT</td>
+                <th>:</th>
+                <td>CIMAHI</td>
+            </tr>
+            <tr>
+                <td>HOBI</td>
+                <th>:</th>
+                <td>
+                    <ul>
+                        <li>MELUKIS</li>
+                        <li>MEMBACA</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+        <button onclick="alert('Biodata berhasil diverifikasi!')">Biodata Terkonfirmasi</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Identitas Diri</p>
+    </footer>
+</body>
+</html>
